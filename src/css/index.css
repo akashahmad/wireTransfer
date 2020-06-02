@@ -1,0 +1,11 @@
+@import './common.css';
+@import './sidenav.css';
+@import './colors.css';
+@import './global-account.css';
+
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+

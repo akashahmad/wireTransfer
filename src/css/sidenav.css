@@ -1,0 +1,83 @@
+.main-div-of-sidenav{
+    background: #131e5e;
+}
+.main-div-of-sidenav .img-and-links-main-div{
+    background:#131e5e;
+    padding: 15px 20px 15px 20px;
+}
+/* first img */
+.main-div-of-sidenav .img-and-links-main-div .img{
+    display: flex;
+    justify-content: center;
+}
+.main-div-of-sidenav .img-and-links-main-div .img img{    
+    width: 71px;
+    border-radius: 11px;
+    padding: 0px 0px 0px 0px;
+}
+/* links and image css starts from here */
+.main-div-of-sidenav .sidenav .link-1{
+    display: flex;
+    justify-content: center;
+    padding:35px 0px 0px 0px
+}
+.main-div-of-sidenav .sidenav .link-1 .link-inside-div{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15px 12px 15px;;
+    border: 1px solid #3154cc;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 46px;
+    line-height: 12px;
+}
+.main-div-of-sidenav .sidenav .link-1 .link-inside-div img{
+    width: 18px;
+    padding: 0px 0px 5px 13px;
+}
+.main-div-of-sidenav .sidenav .link-1 .link-inside-div span{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+/* on hover effect on home link */
+.main-div-of-sidenav .sidenav .link-1 .link-inside-div:hover{
+    background: #3154cc;
+    border-color: #3154cc;
+}
+/* rest of the links css except home */
+.main-div-of-sidenav .sidenav .rest-of-links{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0px 0px 0px;
+}
+.main-div-of-sidenav .sidenav .rest-of-links .inside-div{
+    display: flex;
+    flex-direction: column;
+    padding: 12px 15px 12px 15px;
+    border: 1px solid #3154cc;
+    border-radius: 18px;
+    cursor: pointer;
+    width: 46px;
+    line-height: 12px;
+}
+.main-div-of-sidenav .sidenav .rest-of-links .inside-div img{
+    width: 18px;
+    padding: 0px 0px 5px 14px;
+}
+.main-div-of-sidenav .sidenav .rest-of-links .inside-div span{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+}
+.main-div-of-sidenav .sidenav .rest-of-links .inside-div .exchange{
+    margin: 0px 0px 0px -4px;
+}
+
+/* on hover effect */
+.main-div-of-sidenav .sidenav .rest-of-links .inside-div:hover{
+    background: #3154cc;
+    border-color: #3154cc;
+}

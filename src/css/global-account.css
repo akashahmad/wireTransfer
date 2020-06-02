@@ -1,0 +1,362 @@
+/* global acoount componenet css starts from here */
+.global-account-component{
+    width: 100%;
+    background: #253894;
+}
+
+/* colors ends here */
+.global-account-component .main-div-of-three-portions{
+    display: flex;
+    justify-content: center;
+}
+.global-account-component .main-div-of-three-portions .left-side{
+    padding: 15px 0px 0px 15px;
+    background: #253894;
+}
+/* headings */
+.global-account-component .main-div-of-three-portions .headings{
+    padding: 0px 0px 20px 0px;
+}
+.global-account-component .main-div-of-three-portions .headings h5{
+    color: #fff;
+    margin: 0px;
+    font-weight: 500;
+}
+.global-account-component .main-div-of-three-portions .headings h6{
+    color: #5364ba;
+    padding: 2px 0px 2px 0px;
+    margin: 0px;
+}
+/* cards css  */
+.global-account-component .main-div-of-three-portions .cards{
+    display: flex;
+}
+.global-account-component .main-div-of-three-portions .cards .card-and-plus-icon-div{
+     border-radius: 8px;
+    margin: 0px 9px 10px 0px;
+}
+.global-account-component .main-div-of-three-portions .cards .card-1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: 82px;
+    padding: 1px 0px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .cards .card-1 img{
+    width: 30px;
+}
+.global-account-component .main-div-of-three-portions .cards .card-1 span{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px 0px 12px 0px;
+}
+.global-account-component .main-div-of-three-portions .cards .card-1 p{
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    width:80px;
+}
+.global-account-component .main-div-of-three-portions .cards .plus-icon{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px 5px 0px;
+    border-bottom-left-radius: 8px;
+    background: rgba(0,0,0,0.2);
+    border-bottom-right-radius: 8px;
+}
+.global-account-component .main-div-of-three-portions .cards .plus-icon img{
+    width: 20px;
+}
+/* heading below cards css */
+.global-account-component .main-div-of-three-portions .left-side .heading-below-cards h5{
+    color:#6c84d7;
+    padding:0px 0px 0px 3px;
+}
+/* account-info */
+.global-account-component .main-div-of-three-portions .left-side .account-info{
+    display: flex;
+    justify-content: start;
+    padding: 0px 0px 0px 5px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .img-instead-of-saudia{
+    background: #6da544;
+    padding: 7px 0px 0px 10px;
+    border-radius: 60%;
+    color: #fff;
+    width: 20px;
+    height: 23px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .data{
+    padding: 5px 0px 0px 10px;
+    line-height:22px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .data h5{
+    color: #fff;
+    font-weight: 600;
+    margin: 0px;
+    font-size: 13px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .data h6{
+    color: #fff;
+    font-weight: 100;
+    margin: 0px;
+    font-size: 12px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .data p{
+    font-size: 12px;
+    color: #fff;
+    margin: 0px;
+    font-weight: 100;
+    text-align: left;
+    width: 179px;
+    padding: 0px 0px 0px 23px;
+    line-height: 15px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .img-and-fund-text{
+    padding: 20px 0px 0px 30px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .img-and-fund-text img{ 
+    width: 32px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .img-and-fund-text .img-span{
+    display: flex;
+    flex-direction: column;
+    background: #ffa959;
+    padding: 10px 15px 10px 15px;
+    border-radius: 16px;
+    line-height: 11px;
+}
+.global-account-component .main-div-of-three-portions .left-side .account-info .img-and-fund-text .img-span span{
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
+
+/* middle section starts from here  */
+.global-account-component .main-div-of-three-portions .right-section{
+    background: #15266e;
+    display: flex;
+    padding: 0px 0px 20px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section  .padding{
+    padding: 13px 15px 10px 15px;
+}
+.global-account-component .main-div-of-three-portions .right-section  .padding .select-option-main-div{
+    background: #3154cc;
+    border-radius: 10px;
+    position: relative;
+}
+/* list-inside-select-option */
+.global-account-component .main-div-of-three-portions .right-section  .padding .select-option-main-div .options-inside-select{
+    background: #3154cc;
+    width: 100%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 25;
+    position: absolute;
+    background-color: rgba(0,0,0,0.);
+    margin: -10px 0px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section  .padding .select-option-main-div .options-inside-select ul{
+    list-style: none;
+    padding: 0px;
+    margin: 10px 0px 0px 0px;   
+    background: rgba(0,0,0,0.2);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+.global-account-component .main-div-of-three-portions .right-section  .padding .select-option-main-div .options-inside-select ul li{
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 0px 8px 14px;
+    border-top: 1px solid #7284c2;
+}
+/* list inside select option ends here */
+.global-account-component .main-div-of-three-portions .right-section .first-portion{
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    padding: 9px 10px 7px 8px;
+    border-radius: 10px;
+}
+.global-account-component .main-div-of-three-portions .right-section .first-portion .right-section-select-option{
+    display: flex;    
+}
+.global-account-component .main-div-of-three-portions .right-section .first-portion .right-section-select-option img{
+    width: 25px;
+}
+.global-account-component .main-div-of-three-portions .right-section .first-portion .right-section-select-option h6{
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+    margin: 0px;
+    padding: 4px 0px 0px 3px;
+}
+.global-account-component .main-div-of-three-portions .right-section .first-portion .drop-down-arrow img{ 
+    width: 18px;
+    cursor: pointer;
+    padding: 3px 0px 0px 0px;
+}
+
+    /* below select option css */
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .inside-div-of-notification{
+    display: flex;
+    justify-content: space-between;   
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .data-collection{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 7px 16px;
+    width: 384px;
+    cursor: pointer;
+    background: rgba(0,0,0,0.2);
+    padding: 13px 0px 13px 21px;
+    border-radius: 10px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .data-collection:hover{
+    background: #3154cc;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .span-heading-para{
+    display: flex;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .span-heading-para h6{
+    margin: 0px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 4px 0px 0px 5px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .span-heading-para p{
+    margin: 0px;
+    color: #5f81d8;
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 2px 0px 0px 5px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification span{
+    background: #6da544;
+    padding: 7px 0px 0px 11px;
+    border-radius: 60%;
+    color: #fff;
+    width: 20px;
+    height: 23px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .left-side-notification .info-img img{
+    display: flex;
+    width: 20px;
+    padding: 0px 12px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .balance-area {
+    display: flex;
+    padding:7px 0px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .balance-area h6{
+    padding:8px 0px 0px 20px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+    margin: 0px;
+    opacity: 0.9;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .main-div-of-balance{
+    display: flex;
+    justify-content: space-between;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .balance-area h2{
+    color: #fff;
+    padding: 0px 0px 0px 10px;
+    margin: 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .balance-area h4{
+    color: #fff;
+    padding: 7px 0px 0px 6px;
+    margin: 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .numbers{
+    padding: 4px 8px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .numbers h6{
+    border-radius: 5px;
+    margin: 0px;
+    padding: 6px 20px 6px 20px;
+    color: #fff;
+    font-size: 15px;
+}
+.global-account-component .main-div-of-three-portions .right-section .below-select-option .div-for-numbers{
+    display: flex;
+    padding: 0px 30px 0px 0px ;
+}
+/* 2nd part inside right portion */
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion{
+    padding: 13px 3px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .assigned-data-info{
+    background: rgba(0,0,0,0.2);
+    margin: 10px 0px 0px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .assigned-data-info:hover{
+    background: #46d3da;    
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .assigned-data-info .assigned-heading-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 14px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .assigned-data-info .assigned-heading-img h6{
+    margin: 0px;
+    color: #2f95ab;
+    font-size: 13px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .assigned-data-info .assigned-heading-img img{
+    width: 20px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .links-flex{
+    display: flex;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img{
+    padding: 0px 10px 15px 10px;
+    display: flex;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img h2{
+    margin: 0px;
+    color:#fff;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .left-side-copy-link{
+    display: flex;
+    padding: 4px 7px 4px 3px;
+    background: #248d92;
+    border-radius: 5px;
+    margin: 0px 6px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .left-side-copy-link img{
+    width: 20px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .left-side-copy-link p{
+    margin: 0px;
+    font-size: 12px;
+    padding: 3px 0px 0px 2px;
+    color: #fff;
+    font-weight: 100;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .balance-and-amount .para-heading-of-bal{
+    display: flex;
+    padding: 3px 0px 0px 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .balance-and-amount .para-heading-of-bal p,h2,h6{
+    margin: 0px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .balance-and-amount  .para-heading-of-bal p{
+    padding: 7px 0px 0px 5px;
+    color:#fff
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .balance-and-amount  h6{
+    color:#1f7b7b;
+    font-size: 12px;
+}
+.global-account-component .main-div-of-three-portions .right-section .second-part-right-portion .below-assigned-heading-img .balance-and-amount{
+        padding: 10px 0px 0px 0px;
+}
